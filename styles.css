@@ -1,0 +1,52 @@
+html {
+    background: #FDDE7E;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    /* width: 1200px;
+    height: 600px; */
+    padding-top: 5%;
+}
+
+.coffee {
+    border-radius: 5px;
+    background: white;
+    width: 360px;
+    height: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5); 
+    margin: 0 2%;
+}
+
+.gold {
+    width: 360px;
+    height: 500px;
+}
+
+div {
+    text-align: center;
+}
+
+.value {
+    font-family: 'Miso Bold';
+    font-size: 50px;
+    color: #02995B;
+}
+
+.text-bold {
+    font-family: 'Miso';
+    font-size: 50px;
+}
+
+.text-small {
+    font-family: 'Miso Light';
+    font-size: 25px;
+}
